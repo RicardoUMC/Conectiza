@@ -1,6 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="12dp" /> <!-- Ajusta el radio de las esquinas -->
-    <stroke
-        android:width="3dp"
-        android:color="@color/blue" />
-</shape>
