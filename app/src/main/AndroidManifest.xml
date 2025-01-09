@@ -23,7 +23,7 @@
             android:label="@string/title_activity_tutor"
             android:theme="@style/Theme.Conectiza" />
         <activity
-            android:name=".tutorado"
+            android:name=".Tutorado"
             android:exported="false"
             android:label="@string/title_activity_tutorado"
             android:theme="@style/Theme.Conectiza" />
