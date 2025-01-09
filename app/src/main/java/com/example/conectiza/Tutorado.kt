@@ -22,6 +22,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.conectiza.components.BottomNavigationBar
 import androidx.compose.material3.Icon as Icon1
 import com.example.conectiza.ui.theme.ConectizaTheme
 
@@ -182,50 +183,4 @@ fun TutoradoCard(materia: String, horario: String, tutor: String, lugar: String)
             )
         }
     }
-}
-
-@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
-@Composable
-fun BottomNavigationBar() {
-    Scaffold(
-        bottomBar = {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .background(Color(0xFF6BC2D4))
-            ) {
-                NavigationBar(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(32.dp, 0.dp),
-                    containerColor = Color(0xFF6BC2D4)
-                ) {
-                    NavigationBarItem(
-                        icon = { Icon1(Icons.Default.Home, contentDescription = "Inicio") },
-                        label = { Text("Inicio") },
-                        selected = false,
-                        onClick = { /* Acción */ }
-                    )
-                    NavigationBarItem(
-                        icon = { Icon1(Icons.Default.Add, contentDescription = "Nueva tutoría") },
-                        label = { Text("Nueva") },
-                        selected = false,
-                        onClick = { /* Acción */ }
-                    )
-                    NavigationBarItem(
-                        icon = { Icon1(Icons.Default.Email, contentDescription = "Mensajes") },
-                        label = { Text("Mensajes") },
-                        selected = false,
-                        onClick = { /* Acción */ }
-                    )
-                    NavigationBarItem(
-                        icon = { Icon1(Icons.Default.Person, contentDescription = "Perfil") },
-                        label = { Text("Perfil") },
-                        selected = false,
-                        onClick = { /* Acción */ }
-                    )
-                }
-            }
-        }
-    ) {}
 }
