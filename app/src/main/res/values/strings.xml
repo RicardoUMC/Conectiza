@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Conectiza</string>
+    <string name="welcome_title">BIENVENIDO A</string>
+    <string name="welcome_subtitle">Conectiza</string>
+    <string name="welcome_description">Conecta las mentes para el desarrollo académico.</string>
+    <string name="welcome_additional_description">Encuentra tutorías personalizadas y mejora tus habilidades junto a otros estudiantes.</string>
+    <string name="skip">Saltar</string>
+    <string name="image_description">Imagen representativa de Conectiza</string>
+    <string name="welcome_question_title">¿Necesitas ayuda en una materia?</string>
+    <string name="welcome_question_subtitle">Busca tutores disponibles según tus necesidades.</string>
+    <string name="welcome_tutor_title">Ofrece tu conocimiento como tutor</string>
+    <string name="welcome_tutor_subtitle">Comparte tus habilidades y ayuda a otros mientras aprendes.</string>
+    <string name="welcome_start">Comencemos</string>
+    <string name="start">Comenzar</string>
+    <string name="tutor">Tutor</string>
+    <string name="tutorado">Tutorado</string>
+    <string name="title_activity_tutorado">tutorado</string>
+    <string name="title_activity_tutor">Tutor</string>
+    <string name="title_activity_bottom_nav">BottomNav</string>
+
+</resources>
